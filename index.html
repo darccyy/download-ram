@@ -20,11 +20,15 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
     <script type="text/javascript" src="./script.js"></script>
   </head>
-  <body onload="test()">
+  <body>
     <h1>Download RAM!</h1>
 
-    <p>Your current RAM: <b id="display"> Loading... </b></p>
+    <p>Your current RAM: <b id="display"> <em> Click button to test </em> </b></p>
 
-    <button onclick="test()">Test RAM again</button>
+    <button onclick="test()">Test RAM</button>
+
+    <p id="download">
+      Download: <a download href="/c-moreRAM_c6-4GB-8-1.vbs"> More RAM </a>
+    </p>
   </body>
 </html>
